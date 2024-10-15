@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 2; // Inicializar el número en 2
+
+    do {
+        cout << num << " "; // Imprimir el número actual
+        num++; // Incrementar el número
+    } while (num <= 8); // Continuar mientras el número sea menor o igual a 8
+
+    return 0;
+}
